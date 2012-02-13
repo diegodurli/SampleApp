@@ -11,3 +11,4 @@ doc/app
 .DS_Store
 .redcar
 /autotest/*
+.rspec
