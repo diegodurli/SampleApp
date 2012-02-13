@@ -73,6 +73,7 @@ GEM
     rspec-rails (2.0.0.beta.18)
       rspec (>= 2.0.0.beta.14)
       webrat (>= 0.7.0)
+    spork (0.9.0)
     sqlite3 (1.3.5)
     sqlite3-ruby (1.3.3)
       sqlite3 (>= 1.3.3)
@@ -93,4 +94,6 @@ DEPENDENCIES
   rails (= 3.0.1)
   rspec (= 2.0.0.beta.18)
   rspec-rails (= 2.0.0.beta.18)
+  spork
   sqlite3-ruby
+  webrat
