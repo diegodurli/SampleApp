@@ -1,7 +1,7 @@
 <h1>Edit user</h1>
 
 <%= form_for(@user) do |f| %>
-  <%= render 'fields', f: f %>
+  <%= render 'fields', f: f, object: f.object %>
   <div class='actions'>
     <%= f.submit 'Update' %><br/>
   </div>
