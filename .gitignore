@@ -13,3 +13,4 @@ doc/app
 /autotest/*
 .rspec
 will_paginate
+autotest
