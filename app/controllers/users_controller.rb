@@ -63,6 +63,6 @@ class UsersController < ApplicationController
     end
 
     def admin_user
-      redirect_to(root_path) if (!current_user.admin? || current_user?(@user))
+      redirect_to(root_path) if !current_user.admin? || current_user?(@user)
     end
 end
