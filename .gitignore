@@ -12,3 +12,4 @@ doc/app
 .redcar
 /autotest/*
 .rspec
+will_paginate
